@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         dryRun = false
         ,plugin = {"pretty", "html:target/html/cucumberHtmlReport.html", "json:target/cucumber.json"}  ,
         monochrome = false
-        ,tags= "@dataTable"
+        ,tags= "@test"
 )
         //feature is theoutline, glue tells me the path to the implementation file(step definitions)
 //dryRun tells me which steps are implemented

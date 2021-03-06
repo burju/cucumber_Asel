@@ -1,7 +1,7 @@
 @sprint1 @login
 Feature: Login
 
-@regression
+@regression @test
   Scenario: Login using valid credentials
 #    Given I opened browser navigate to HRMS
     Then I enter valid username and password

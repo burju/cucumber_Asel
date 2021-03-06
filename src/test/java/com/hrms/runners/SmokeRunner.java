@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 glue="com/hrms/stepDefinitions" ,
         dryRun = false,
         plugin= {"pretty", "html:target/html/cucumber-default-report.html", "json:target/cucumber_smoke.json"},
-        tags= "@smoke"
+        tags= "@test"
 )
 public class SmokeRunner {
 

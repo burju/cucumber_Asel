@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
                 glue= "com/hrms/stepDefinitions",
         dryRun= false,
         plugin = {"pretty", "html:target/html.cucumber-default-report.html", "json:target/cucumber-regression.json"}
-        ,tags= "@regression"
+        ,tags= "@test"
 )
 
 public class RegressionRunner {

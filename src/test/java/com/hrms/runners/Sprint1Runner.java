@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         glue= "com/hrms/stepDefinitions",
         dryRun= false,
         plugin = {"pretty", "html:target/html.cucumber-default-report.html", "json:target/cucumber-sprint1.json"}
-        ,tags= "@sprint1"
+        ,tags= "@test"
 
 )
 public class Sprint1Runner {
